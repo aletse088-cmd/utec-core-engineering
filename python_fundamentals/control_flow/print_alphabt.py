@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-result = ""
-for letter in range(ord('a'), ord('z') + 1):
-    if chr(letter) != 'q' and chr(letter) != 'e':
-        result += chr(letter)
-print(result)
+for i in range(97, 123):
+    if i != 101 and i != 113:
+        print("{}".format(chr(i)), end="" if i != 122 else "\n")
