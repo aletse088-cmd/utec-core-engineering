@@ -10,6 +10,7 @@ Proyecto sobre listas y otras estructuras de datos basicas en Python.
 | `element_at.py` | Devuelve el elemento en un indice o None si es invalido |
 | `replace_in_list.py` | Reemplaza un elemento de una lista en un indice valido |
 | `print_matrix_integer.py` | Imprime una matriz de enteros, una fila por linea |
+| `add_tuple.py` | Suma dos tuplas posicion por posicion |
 
 ## Requisitos
 
