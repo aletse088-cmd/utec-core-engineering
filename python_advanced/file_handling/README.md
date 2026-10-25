@@ -12,3 +12,8 @@ file using the `with` statement and prints its content to stdout.
 `write_file.py` defines `write_file(filename="", text="")`, which writes a
 string to a UTF-8 text file (creating or overwriting it) using the `with`
 statement and returns the number of characters written.
+
+### 2. Append to a file
+`append_write.py` defines `append_write(filename="", text="")`, which appends
+a string to the end of a UTF-8 text file (creating it if needed) using the
+`with` statement and returns the number of characters added.
