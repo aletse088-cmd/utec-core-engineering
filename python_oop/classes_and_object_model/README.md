@@ -16,3 +16,7 @@ objects in Python.
 `2-square.py` defines a class `Square` whose private `size` must be an
 integer (`TypeError` otherwise) and greater than or equal to 0 (`ValueError`
 otherwise).
+
+### 4. Area of a square
+`3-square.py` adds the instance method `area(self)` to `Square`, which
+returns the area of the square.
