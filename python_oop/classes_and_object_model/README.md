@@ -24,3 +24,7 @@ returns the area of the square.
 ### 5. Access and update a private attribute
 `4-square.py` adds a getter and a setter (with validation) for the private
 attribute `size` of `Square`, using the `property` decorator.
+
+### 6. Print a square
+`5-square.py` adds the public instance method `my_print(self)` to `Square`,
+which prints the square with the character `#` (an empty line if size is 0).
