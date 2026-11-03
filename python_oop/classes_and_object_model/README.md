@@ -33,3 +33,7 @@ which prints the square with the character `#` (an empty line if size is 0).
 `6-square.py` adds a private `position` attribute (a tuple of 2 positive
 integers) with a getter and setter, and the special method `__str__` so that
 printing a `Square` behaves like `my_print()`.
+
+### 8. Rectangle class
+`1-rectangle.py` defines a class `Rectangle` with private, validated
+attributes `width` and `height`, each with a getter and a setter.
