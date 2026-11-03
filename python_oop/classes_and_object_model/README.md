@@ -20,3 +20,7 @@ otherwise).
 ### 4. Area of a square
 `3-square.py` adds the instance method `area(self)` to `Square`, which
 returns the area of the square.
+
+### 5. Access and update a private attribute
+`4-square.py` adds a getter and a setter (with validation) for the private
+attribute `size` of `Square`, using the `property` decorator.
