@@ -15,3 +15,8 @@ polymorphism with a list of animals, and checks class relationships with
 `base_geometry.py` defines a class `BaseGeometry` with an `area()` method
 that raises an exception (not implemented) and an `integer_validator()`
 method that checks a value is an integer greater than 0.
+
+### 2. Rectangle
+`1-rectangle.py` defines a class `Rectangle` that inherits from
+`BaseGeometry`, with private `width` and `height` validated by the inherited
+`integer_validator()`.
