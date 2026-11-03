@@ -20,3 +20,7 @@ method that checks a value is an integer greater than 0.
 `1-rectangle.py` defines a class `Rectangle` that inherits from
 `BaseGeometry`, with private `width` and `height` validated by the inherited
 `integer_validator()`.
+
+### 3. Full rectangle
+`2-rectangle.py` extends `Rectangle` with an implementation of `area()` and
+a `__str__` method that returns `[Rectangle] <width>/<height>`.
