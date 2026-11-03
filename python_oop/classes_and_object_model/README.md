@@ -28,3 +28,8 @@ attribute `size` of `Square`, using the `property` decorator.
 ### 6. Print a square
 `5-square.py` adds the public instance method `my_print(self)` to `Square`,
 which prints the square with the character `#` (an empty line if size is 0).
+
+### 7. Print the square instance
+`6-square.py` adds a private `position` attribute (a tuple of 2 positive
+integers) with a getter and setter, and the special method `__str__` so that
+printing a `Square` behaves like `my_print()`.
