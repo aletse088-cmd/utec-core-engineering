@@ -10,3 +10,8 @@ Python.
 `Dog` and `Cat`, overrides `speak()` in each subclass, demonstrates
 polymorphism with a list of animals, and checks class relationships with
 `isinstance` and `issubclass`.
+
+### 1. Basic geometry
+`base_geometry.py` defines a class `BaseGeometry` with an `area()` method
+that raises an exception (not implemented) and an `integer_validator()`
+method that checks a value is an integer greater than 0.
