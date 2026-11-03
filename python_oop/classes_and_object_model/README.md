@@ -37,3 +37,7 @@ printing a `Square` behaves like `my_print()`.
 ### 8. Rectangle class
 `1-rectangle.py` defines a class `Rectangle` with private, validated
 attributes `width` and `height`, each with a getter and a setter.
+
+### 9. Area and perimeter
+`2-rectangle.py` adds the instance methods `area()` and `perimeter()` to
+`Rectangle`. The perimeter is 0 if the width or the height is 0.
