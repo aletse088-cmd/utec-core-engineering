@@ -29,3 +29,7 @@ a `__str__` method that returns `[Rectangle] <width>/<height>`.
 `1-square.py` defines a class `Square` that inherits from `Rectangle`. It
 takes a single private `size`, validated by `integer_validator()`, and
 implements `area()`.
+
+### 5. Square #2
+`2-square.py` extends `Square` with a `__str__` method that returns
+`[Square] <width>/<height>`.
